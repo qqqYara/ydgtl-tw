@@ -1,0 +1,47 @@
+/* --------------------------------------------------------------------------
+ * >>> UI Kit (Buttons, Hovers, etc.) :
+ * -------------------------------------------------------------------------- */
+
+.btn-transperent {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 186px;
+    height: 44px;
+    background: transparent;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;    
+    border: 2px solid #FFFFFF;
+    border-radius: 20px 20px 20px 0px;
+    transition: all .7s ease;
+    cursor: pointer;
+
+    &:hover {
+        background: #FFFFFF;
+        color: #141429;
+    }
+}
+.btn-submit {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 186px;
+    height: 44px;
+    background: #D02B2B;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;    
+    border: 2px solid #D02B2B;
+    border-radius: 20px 20px 20px 0px;
+    transition: all .7s ease;
+    cursor: pointer;
+
+    &:hover {
+        background: #FFFFFF;
+        // border: 2px solid #FFFFFF;
+        color: #D02B2B;
+    }
+}

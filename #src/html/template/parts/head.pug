@@ -1,0 +1,46 @@
+//---------------------------------------------------------------------------
+ >>> Head Block :
+  ----------------------------------------------------------------------------
+// >>> Basic <<<
+meta(charset='utf-8')
+meta(http-equiv='X-UA-Compatible' content='IE=Edge')
+meta(name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0')
+title=pageTitle || 'title'
+meta(name='description' content=padeDescription || 'TestWork')
+meta(name='keywords' content='')
+meta(name='author' content='Yaroslav Mitiuk')
+meta(name='robots' content='noindex, nofollow')
+
+// >>> Favicon <<<
+// link(rel='icon' href='images/favicon/favicon.ico' sizes='32x32' type='image/x-icon')
+link(rel='icon' href='images/favicon/favicon.svg' sizes='32x32')
+link(rel='icon' href='images/favicon/favicon.svg' sizes='64x64')
+link(rel='apple-touch-icon' href='images/favicon/favicon.svg')
+
+// >>> OG Tags <<<
+meta(property='og:title' content=pageTitle || 'title')
+meta(property='og:description' content=padeDescription || 'description')
+meta(property='og:type' content='article')
+meta(property='og:image' content='SRC to project screenshot[nope]')
+meta(property='og:site_name' content='link')
+meta(property='og:site_name' content='link')
+meta(name='twitter:card' content='summary_large_image')
+meta(name='twitter:title' content=pageTitle || 'title')
+meta(name='twitter:description' content=padeDescription || 'description')
+meta(name='twitter:image:src' content='SRC to project screenshot[nope]')
+meta(name='twitter:url' content='URL to project page')
+meta(name='twitter:domain' content='URL to project page')
+meta(name='twitter:site' content='URL to project page')
+meta(name='twitter:creator' content='Yaroslav Mitiuk')
+
+// >>> CSS <<<
+link(rel='stylesheet' type='text/css' href='css/style.min.css')
+
+// >>> CSS Vars Check <<<
+// script.
+//     document.documentElement.className = "js";
+//     var supportsCssVars = function supportsCssVars() {
+//         var e,
+//             t = document.createElement("style");
+//         return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e;};
+//     supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");

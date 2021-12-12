@@ -1,0 +1,95 @@
+//---------------------------------------------------------------------------
+	>>> Home Page :
+	---------------------------------------------------------------------------
+
+extends ./template/main
+
+block variables
+
+	- let pageTitle = 'Home page';
+	- let padeDescription = pageTitle + '';
+
+block content
+
+
+	section.home-category_grid
+		.container
+			.category-top
+				.left
+					.image-wrapper
+						img(src="images/" alt="image")
+						.bg-hover
+						.buttons
+				.right
+					.image-wrapper
+						img(src="images/" alt="image")
+						.bg-hover
+						.buttons
+					.image-wrapper
+						img(src="images/" alt="image")
+						.bg-hover
+						.buttons
+			.category-bottom
+				.left
+					.image-wrapper
+						img(src="images/" alt="image")
+						.bg-hover
+						.buttons
+					.image-wrapper
+						img(src="images/" alt="image")
+						.bg-hover
+						.buttons
+				.right
+					.image-wrapper
+						img(src="images/" alt="image")
+						.bg-hover
+						.buttons
+
+	section.home-swiper_new-products
+		.container
+			.section-heading
+				h2 qwe
+				.nav-new-products
+					.nav-prev#new_products-list-prev <
+					.nav-next#new_products-list-next >
+			.swiper-container.swiper_new-products#new-products
+				.swiper-wrapper
+					.swiper-slide
+						img(src="images/" alt="image")
+						.bg-hover
+						.buttons
+
+	section.home-swiper_featured-products
+		.container
+			.section-heading
+				h2 qwe
+				.nav-featured-products
+					.nav-prev#featured-list-prev <
+					.nav-next#featured-list-next >
+			.swiper-container.swiper_featured-products#featured-products
+				.swiper-wrapper
+					.swiper-slide
+						.product-card
+							img(src="images/" alt="image")
+							.special-offer
+							.product-footer
+								.product-info
+									.product-title qqqq
+									.product-description qqqq
+								.product-buttons
+									.product-compare
+									.product-wishlist
+									.product-cart
+									.product-price
+
+	section.home-about_us
+		.container
+			.section-heading
+				h2 qwe
+			.caption Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+			.about_us-steps
+				.steps-item
+					img(src="images/" alt="image")
+					name qqqq
+			.registration-btn Register Now

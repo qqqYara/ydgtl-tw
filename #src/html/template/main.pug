@@ -1,0 +1,20 @@
+//---------------------------------------------------------------------------
+  >>> Main Template :
+  ---------------------------------------------------------------------------
+doctype html
+html(lang="en" dir="ltr")
+    head
+        block variables
+        include ../template/parts/head
+
+    body#body.body
+        include ../layout/header
+
+        main.site-content#fullpage(role='main')
+            block content
+
+        //- include ../layout/footer
+        include ../template/parts/pop-ups
+
+        script(src="scripts/libraries.min.js")
+        script(src="scripts/scripts.js")
