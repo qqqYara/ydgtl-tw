@@ -5,9 +5,9 @@ $(document).ready(function () {
     
     
     // new-products swiper
-    const casesSwiper = document.getElementsByClassName('swiper_new-products');
+    const newSwiper = document.getElementsByClassName('swiper_new-products');
 
-    if (casesSwiper){
+    if (newSwiper){
         let mySwiper = new Swiper('#new-products', {
             // Optional parameters
             direction: 'horizontal',
@@ -33,9 +33,9 @@ $(document).ready(function () {
         })
     }
     // featured-products swiper
-    const casesSwiper = document.getElementsByClassName('swiper_featured-products');
+    const featuredSwiper = document.getElementsByClassName('swiper_featured-products');
 
-    if (casesSwiper){
+    if (featuredSwiper){
         let mySwiper = new Swiper('#featured-products', {
             // Optional parameters
             direction: 'horizontal',
@@ -61,4 +61,3 @@ $(document).ready(function () {
         })
     }
 });
-

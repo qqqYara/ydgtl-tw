@@ -15,35 +15,50 @@ block content
 	section.home-category_grid
 		.container
 			.category-top
-				.left
-					.image-wrapper
-						img(src="images/" alt="image")
-						.bg-hover
-						.buttons
-				.right
-					.image-wrapper
-						img(src="images/" alt="image")
-						.bg-hover
-						.buttons
-					.image-wrapper
-						img(src="images/" alt="image")
-						.bg-hover
-						.buttons
+				.category-top__Left.left
+					.image-wrapper.image-man_wear
+						img(src="images/grid-bg1.png" alt="image")
+						a.bg-hover(href="#")
+						.information-tag-list
+							.title-tag
+								.title Men’s Wear
+								.caption Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+							.message-tag Lorem Ipsum is simply dummy text
+				.category-top__right.right
+					.image-wrapper.image-woman_wear
+						img(src="images/grid-bg2.png" alt="image")
+						a.bg-hover(href="#")
+						.information-tag-list
+							.title-tag
+								.title Woman’s Wear
+								.caption Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+					.image-wrapper.image-kid_wear
+						img(src="images/grid-bg3.png" alt="image")
+						a.bg-hover(href="#")
+						//- .information-tag-list
+						.category-buttons
+							.shop-link Baby Shop
+							.wishlist
+							.cart
+								img
+
 			.category-bottom
-				.left
-					.image-wrapper
-						img(src="images/" alt="image")
-						.bg-hover
-						.buttons
-					.image-wrapper
-						img(src="images/" alt="image")
-						.bg-hover
-						.buttons
-				.right
-					.image-wrapper
-						img(src="images/" alt="image")
-						.bg-hover
-						.buttons
+				.category-bottom__left.left
+					.image-wrapper.category_grid-search
+						label.input-label__search(for="input-search")
+							input.input-search#input-search(type="search" placeholder="Search your product here ( e.g.: Silver diamond ring )")
+							img(src="images/search.png" alt="search")
+					.image-wrapper.image-craft_wear
+						img(src="images/grid-bg4.png" alt="image")
+						a.bg-hover(href="#")
+						.information-tag-list
+				.category-bottom__right.right
+					.image-wrapper.image-jewelry_wear
+						img(src="images/grid-bg5.png" alt="image")
+						a.bg-hover(href="#")
+						.information-tag-list
+							.title-tag
+								.title jewelry
 
 	section.home-swiper_new-products
 		.container
