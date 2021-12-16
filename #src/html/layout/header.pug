@@ -2,5 +2,74 @@
   >>> Header Block :
   ---------------------------------------------------------------------------
 
-//- header#site-header.site-header(role='banner')
-//-     .container
+header#site-header.site-header(role='banner')
+  .container
+    .site-header-top
+      .logo
+        img(src="images/" alt="image")
+      .site-header-menus
+        ul.slim-menu
+          li
+            a Sell 
+          li
+            a Registry 
+          li
+            a Community 
+          li
+            a Blogs 
+          li
+            a Mobile  
+          li
+            a Gift Cards
+        .wrapper-strong-menu
+          ul.strong-menu
+            li
+              a Register 
+            li
+              a Sign In 
+            li.wishlist
+              a Whislost
+            li.cart
+              a Cart 
+
+    .site-header-bottom
+      ul.category-menu
+        li
+          a Art
+        li
+          a Home & Living          
+          ul.category-submenu.home_living-submenu
+            li
+              img(src="images/" alt="image")
+              .submenu-description
+                .title Item Name Here
+                .caption Lorem Ipsum is simply dummy text of the
+                a.submenu-more-btn(href="#") More Detail
+            li
+              img(src="images/" alt="image")
+              .submenu-description
+                .title Item Name Here
+                .caption Lorem Ipsum is simply dummy text of the
+                a.submenu-more-btn(href="#") More Detail
+            li
+              img(src="images/" alt="image")
+              .submenu-description
+                .title Item Name Here
+                .caption Lorem Ipsum is simply dummy text of the
+                a.submenu-more-btn(href="#") More Detail
+            li
+              a See All Items
+        li
+          a Jewelry
+        li
+          a Women
+        li
+          a Men
+        li
+          a Kids
+        li
+          a Vintage
+        li
+          a Weddings
+        li
+          a More 
